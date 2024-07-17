@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form Application</h1>
+    <div class="container">
+        <form id="form">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="Enter Your First Name">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" placeholder="Enter Your Last Name">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enetr Your Age">
+            <label for="job">Job:</label>
+            <select id="job">
+                <option value="front-end">Front End Web Developer</option>
+                <option value="back-end">Back End Web Developer</option>
+                <option value="full-stack">Full Stack Web Developer</option>
+                <option value="cyber-security">Cyber Security</option>
+                <option value="mobile">Mobile App Developer</option>
+                <option value="data-scientist">Data Scientest</option>
+            </select>
+            <label for="exYears">Years Of Experience:</label>
+            <input type="number" id="exYears" placeholder="Enter Your Years Of Experience">
+            <label for="workHours">Working Hours:</label>
+            <select id="workHours">
+                <option value="4">4</option>
+                <option value="8">8</option>
+            </select>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
